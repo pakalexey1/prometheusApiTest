@@ -3,7 +3,7 @@ package com.prometheus.dto;
 import lombok.Data;
 
 @Data
-public class CommentDTO {
+public class CommentDto {
     private Integer postId;
     private Integer id;
     private String name;
