@@ -14,7 +14,7 @@ public class PostsClient extends BaseClient {
     }
 
     // GET a post by ID
-    public Response getPost(int id){
+    public Response getPostById(int id){
         return get(POSTS + "/" + id);
     }
     // GET all posts

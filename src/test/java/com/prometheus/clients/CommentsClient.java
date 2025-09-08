@@ -13,7 +13,7 @@ public class CommentsClient extends BaseClient {
     }
 
     //GET comment by id
-    public Response getComment(int id){
+    public Response getCommentById(int id){
         return get(COMMENTS + "/" + id);
     }
 

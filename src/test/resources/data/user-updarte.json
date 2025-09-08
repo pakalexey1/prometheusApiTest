@@ -1,0 +1,16 @@
+{
+  "id": 1,
+  "name": "user testName",
+  "username": "testUserName",
+  "email": "user@testemail.com",
+  "address": {
+    "street": "Main St",
+    "suite": "Apt 111",
+    "city": "Test City",
+    "zipcode": "27615",
+    "geo": { "lat": "-23.7469", "lng": "83.5511" }
+  },
+  "phone": "1-888-555-3865 x105",
+  "website": "testemail.com",
+  "company": { "name": "User LLC", "catchPhrase": "Test User Creation", "bs": "testing adding a new user" }
+}
