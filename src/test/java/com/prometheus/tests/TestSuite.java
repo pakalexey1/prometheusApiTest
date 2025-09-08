@@ -152,7 +152,7 @@ public class TestSuite {
         assertThat(updated.getAddress().getCity()).isEqualTo(request.getAddress().getCity());
     }
 
-    @DisplayName("PUT #3: GET before/after PUT still returns original")
+    @DisplayName("PUT #3: GET before/after PUT")
     @Test
     void put_non_persistent_check() {
         PostDto before = posts.getPostById(1)
