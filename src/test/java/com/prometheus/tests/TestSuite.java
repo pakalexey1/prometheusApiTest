@@ -197,7 +197,7 @@ public class TestSuite {
 
     @DisplayName("DELETE #3: delete non-existing user id")
     @Test
-    void delete_user_non_existing_still_ok() {
+    void deleteNonExistingUser() {
         String payload = users.deleteUser(9999)
                 .then().statusCode(200)
                 .extract().asString().trim();
