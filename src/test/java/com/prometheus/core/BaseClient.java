@@ -18,10 +18,10 @@ public abstract class BaseClient {
         return RestAssured.given().spec(spec).body(body).when().post(path);
     }
     protected Response put(String path, Object body){
-        return RestAssured.given().spec(spec).body(body).when().put();
+        return RestAssured.given().spec(spec).body(body).when().put(path);
     }
     protected Response delete(String path){
-        return RestAssured.given().spec(spec).when().delete();
+        return RestAssured.given().spec(spec).when().delete(path);
     }
 
 }

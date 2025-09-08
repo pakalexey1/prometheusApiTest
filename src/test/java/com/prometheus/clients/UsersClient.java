@@ -33,7 +33,7 @@ public class UsersClient extends BaseClient {
     }
 
     //DELETE a user
-    public Response deleteUSer(int id){
+    public Response deleteUser(int id){
         return delete(USERS + "/" +id);
     }
 
