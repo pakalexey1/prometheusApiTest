@@ -61,7 +61,7 @@ public class TestSuite {
         }
     }
 
-    @DisplayName("GET-3 (NEGATIVE): /comments?postId=9999")
+    @DisplayName("GET #3 (NEGATIVE): /comments?postId=9999")
     @Test
     public void getCommentsWithInvalidId() {
         List<CommentDto> list = comments.listCommentsForPost(9999)
